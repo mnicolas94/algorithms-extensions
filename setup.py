@@ -75,7 +75,7 @@ if __name__ == '__main__':
             url="https://github.com/mnicolas94/algorithms-extensions",
             packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
             install_requires=[
-                'algorithms',
+                'mnd_algorithms',
                 'easydict'
             ],
             classifiers=[
